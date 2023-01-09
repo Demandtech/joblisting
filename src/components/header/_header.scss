@@ -1,0 +1,10 @@
+header{
+  background: $headerDesktopBg;
+  background-size: cover;
+  height: 100px;
+
+  @include mobile(){
+   background: $headerMobileBg;
+   background-size: cover;
+  }
+}
